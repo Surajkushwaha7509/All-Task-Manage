@@ -1,0 +1,35 @@
+GET http://localhost:5000/api/get
+
+
+###
+POST http://localhost:1111/auth
+Content-Type:application/json
+
+{
+    "emailid":"suraj@gmail.com",
+    "password":"Suraj12@"
+}
+
+
+###
+GET http://localhost:1111/itemlist/653ce527a6d55054a1ffabdf
+
+
+###
+PUT  http://localhost:5000/api/put
+Content-Type:application/json
+
+{
+    "id": 6,
+    "name": "Apple111",
+    "price": 802,
+    "detail": "1good apple"
+}
+
+
+###
+DELETE http://localhost:1111/itemlist/653ce527a6d55054a1ffabdf
+
+
+###
+
